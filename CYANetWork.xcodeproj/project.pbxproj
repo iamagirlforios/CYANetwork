@@ -13,9 +13,17 @@
 		48C4C8012A7A3A740057DDD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C4C7FF2A7A3A740057DDD2 /* Main.storyboard */; };
 		48C4C8032A7A3A750057DDD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C4C8022A7A3A750057DDD2 /* Assets.xcassets */; };
 		48C4C8062A7A3A750057DDD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C4C8042A7A3A750057DDD2 /* LaunchScreen.storyboard */; };
+		48C4C8152A7A3C4E0057DDD2 /* IBaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C4C80E2A7A3C4E0057DDD2 /* IBaseResponse.swift */; };
+		48C4C8162A7A3C4E0057DDD2 /* NetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C4C80F2A7A3C4E0057DDD2 /* NetWork.swift */; };
+		48C4C8172A7A3C4E0057DDD2 /* INetConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C4C8102A7A3C4E0057DDD2 /* INetConfiguration.swift */; };
+		48C4C8182A7A3C4E0057DDD2 /* NetConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C4C8122A7A3C4E0057DDD2 /* NetConfiguration.swift */; };
+		48C4C8192A7A3C4E0057DDD2 /* NetResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C4C8132A7A3C4E0057DDD2 /* NetResponse.swift */; };
+		48C4C81A2A7A3C4E0057DDD2 /* NetWork+HandyJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C4C8142A7A3C4E0057DDD2 /* NetWork+HandyJson.swift */; };
+		66ED6EE5ECB60987C8D75E96 /* Pods_CYANetWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2C7CF7DC4D3AEC72A58F39 /* Pods_CYANetWork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17AAB176A108A87CE71B7D16 /* Pods-CYANetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYANetWork.debug.xcconfig"; path = "Target Support Files/Pods-CYANetWork/Pods-CYANetWork.debug.xcconfig"; sourceTree = "<group>"; };
 		48C4C7F62A7A3A740057DDD2 /* CYANetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYANetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C4C7F92A7A3A740057DDD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48C4C7FB2A7A3A740057DDD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,14 @@
 		48C4C8022A7A3A750057DDD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48C4C8052A7A3A750057DDD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48C4C8072A7A3A750057DDD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C4C80E2A7A3C4E0057DDD2 /* IBaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBaseResponse.swift; sourceTree = "<group>"; };
+		48C4C80F2A7A3C4E0057DDD2 /* NetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWork.swift; sourceTree = "<group>"; };
+		48C4C8102A7A3C4E0057DDD2 /* INetConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INetConfiguration.swift; sourceTree = "<group>"; };
+		48C4C8122A7A3C4E0057DDD2 /* NetConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetConfiguration.swift; sourceTree = "<group>"; };
+		48C4C8132A7A3C4E0057DDD2 /* NetResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetResponse.swift; sourceTree = "<group>"; };
+		48C4C8142A7A3C4E0057DDD2 /* NetWork+HandyJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetWork+HandyJson.swift"; sourceTree = "<group>"; };
+		678A54755999B559B466BB57 /* Pods-CYANetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYANetWork.release.xcconfig"; path = "Target Support Files/Pods-CYANetWork/Pods-CYANetWork.release.xcconfig"; sourceTree = "<group>"; };
+		9D2C7CF7DC4D3AEC72A58F39 /* Pods_CYANetWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYANetWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66ED6EE5ECB60987C8D75E96 /* Pods_CYANetWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				48C4C7F82A7A3A740057DDD2 /* CYANetWork */,
 				48C4C7F72A7A3A740057DDD2 /* Products */,
+				B8E0FA30DCF43AF60BABA01F /* Pods */,
+				52F1405371FDFBCE7CBE447E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +75,8 @@
 		48C4C7F82A7A3A740057DDD2 /* CYANetWork */ = {
 			isa = PBXGroup;
 			children = (
+				48C4C8112A7A3C4E0057DDD2 /* middleware */,
+				48C4C80D2A7A3C4E0057DDD2 /* net */,
 				48C4C7F92A7A3A740057DDD2 /* AppDelegate.swift */,
 				48C4C7FB2A7A3A740057DDD2 /* SceneDelegate.swift */,
 				48C4C7FD2A7A3A740057DDD2 /* ViewController.swift */,
@@ -67,6 +88,43 @@
 			path = CYANetWork;
 			sourceTree = "<group>";
 		};
+		48C4C80D2A7A3C4E0057DDD2 /* net */ = {
+			isa = PBXGroup;
+			children = (
+				48C4C80E2A7A3C4E0057DDD2 /* IBaseResponse.swift */,
+				48C4C80F2A7A3C4E0057DDD2 /* NetWork.swift */,
+				48C4C8102A7A3C4E0057DDD2 /* INetConfiguration.swift */,
+			);
+			path = net;
+			sourceTree = "<group>";
+		};
+		48C4C8112A7A3C4E0057DDD2 /* middleware */ = {
+			isa = PBXGroup;
+			children = (
+				48C4C8122A7A3C4E0057DDD2 /* NetConfiguration.swift */,
+				48C4C8132A7A3C4E0057DDD2 /* NetResponse.swift */,
+				48C4C8142A7A3C4E0057DDD2 /* NetWork+HandyJson.swift */,
+			);
+			path = middleware;
+			sourceTree = "<group>";
+		};
+		52F1405371FDFBCE7CBE447E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D2C7CF7DC4D3AEC72A58F39 /* Pods_CYANetWork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8E0FA30DCF43AF60BABA01F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17AAB176A108A87CE71B7D16 /* Pods-CYANetWork.debug.xcconfig */,
+				678A54755999B559B466BB57 /* Pods-CYANetWork.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48C4C80A2A7A3A750057DDD2 /* Build configuration list for PBXNativeTarget "CYANetWork" */;
 			buildPhases = (
+				704093A0198C574F1466B604 /* [CP] Check Pods Manifest.lock */,
 				48C4C7F22A7A3A740057DDD2 /* Sources */,
 				48C4C7F32A7A3A740057DDD2 /* Frameworks */,
 				48C4C7F42A7A3A740057DDD2 /* Resources */,
+				181DEEA29EB192EFFE93D182 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +193,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		181DEEA29EB192EFFE93D182 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CYANetWork/Pods-CYANetWork-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CYANetWork/Pods-CYANetWork-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CYANetWork/Pods-CYANetWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		704093A0198C574F1466B604 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CYANetWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		48C4C7F22A7A3A740057DDD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				48C4C7FE2A7A3A740057DDD2 /* ViewController.swift in Sources */,
+				48C4C8182A7A3C4E0057DDD2 /* NetConfiguration.swift in Sources */,
+				48C4C8192A7A3C4E0057DDD2 /* NetResponse.swift in Sources */,
+				48C4C8152A7A3C4E0057DDD2 /* IBaseResponse.swift in Sources */,
+				48C4C8172A7A3C4E0057DDD2 /* INetConfiguration.swift in Sources */,
 				48C4C7FA2A7A3A740057DDD2 /* AppDelegate.swift in Sources */,
 				48C4C7FC2A7A3A740057DDD2 /* SceneDelegate.swift in Sources */,
+				48C4C8162A7A3C4E0057DDD2 /* NetWork.swift in Sources */,
+				48C4C81A2A7A3C4E0057DDD2 /* NetWork+HandyJson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +390,7 @@
 		};
 		48C4C80B2A7A3A750057DDD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17AAB176A108A87CE71B7D16 /* Pods-CYANetWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +418,7 @@
 		};
 		48C4C80C2A7A3A750057DDD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 678A54755999B559B466BB57 /* Pods-CYANetWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
